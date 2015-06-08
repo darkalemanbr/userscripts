@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 var css = '' +
-'* { color: #000; background: #000; }'
+'* { color: #000; background: #FFF; }'
 ;
 
 $('link[rel=stylesheet]:first-of-type, style:first-of-type').before('<style type="text/css">' + css + '"</style>');
